@@ -6,6 +6,7 @@ function FooterMenu(props) {
     return (
         <div>
             {props.item}
+            menu
         </div>
     );
 }
