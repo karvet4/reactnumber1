@@ -4,13 +4,11 @@ import TopMenu from "./TopMenu";
 
 
 function Header(props) {
-    const add = () => {console.log ('ADD')
-    props.attempt('shark') }
 
     return (
         <div>
             Header
-        <button onClick={add}>add</button>
+        <button onClick={() => props.attempt('shark')}>Shark</button>
         <Logo/>
             This is Header {props.version}
             <ul>
