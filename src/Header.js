@@ -11,9 +11,9 @@ function Header(props) {
         <button onClick={() => props.attempt('shark')}>Shark</button>
         <Logo/>
             This is Header {props.version}
-            <ul>
+
             {props.menuItems.map(el => <TopMenu key={el} item={el}/>)}
-            </ul>
+
             </div>
     );
 }
